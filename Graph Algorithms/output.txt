@@ -1,0 +1,412 @@
+[sarahyw@csslab7 uwb2020wi343b-graph-sarahyw10]$ clang++ -Wall -Wextra -Wno-sign-compare *.cpp
+[sarahyw@csslab7 uwb2020wi343b-graph-sarahyw10]$ ./a.out
+Test Basic Done!
+testGraph0DFS
+Test DFS Done!
+testGraph0BFS
+Test BFS Done!
+testGraph0Dijkstra
+Test Dijkstra Done!
+testGraph0NotDirected
+Test Not Directed Done!
+testGraph1
+Test Graph Done!
+Done!
+[sarahyw@csslab7 uwb2020wi343b-graph-sarahyw10]$ valgrind ./a.out
+==23152== Memcheck, a memory error detector
+==23152== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==23152== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==23152== Command: ./a.out
+==23152==
+Test Basic Done!
+testGraph0DFS
+Test DFS Done!
+testGraph0BFS
+Test BFS Done!
+testGraph0Dijkstra
+Test Dijkstra Done!
+testGraph0NotDirected
+Test Not Directed Done!
+testGraph1
+Test Graph Done!
+Done!
+==23152==
+==23152== HEAP SUMMARY:
+==23152==     in use at exit: 0 bytes in 0 blocks
+==23152==   total heap usage: 322 allocs, 322 frees, 60,416 bytes allocated
+==23152==
+==23152== All heap blocks were freed -- no leaks are possible
+==23152==
+==23152== For counts of detected and suppressed errors, rerun with: -v
+==23152== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Installing SSH key from: default repository key
+163Using /home/travis/.netrc to clone repository.
+164
+git.checkout
+1651.01s$ git clone --depth=50 --branch=master https://github.com/uwbclass/uwb2020wi343b-graph-sarahyw10.git uwbclass/uwb2020wi343b-graph-sarahyw10
+175
+176travis_0.01s$ export TRAVIS_COMPILER=g++
+177$ export CXX=${CXX:-g++}
+178$ export CXX_FOR_BUILD=${CXX_FOR_BUILD:-g++}
+179$ export CC=${CC:-gcc}
+180$ export CC_FOR_BUILD=${CC_FOR_BUILD:-gcc}
+181$ g++ --version
+182g++ (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+183Copyright (C) 2015 Free Software Foundation, Inc.
+184This is free software; see the source for copying conditions.  There is NO
+185warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+186
+before_install.1
+1870.00s$ uname -a
+before_install.2
+1896.54s$ sudo apt-get install valgrind
+2170.00s$ echo "Start TravisCI"
+218Start TravisCI
+219The command "echo "Start TravisCI"" exited with 0.
+22029.83s$ chmod 755 simplecompile.sh; ./simplecompile.sh
+221===================================================================
+222Recommended Usage: ./simplecompile.sh > output.txt 2>&1
+223===================================================================
+224Wed Feb 12 07:28:56 UTC 2020
+225Linux travis-job-2b8e69d1-1734-4da6-8456-4e3343d8f406 4.15.0-1028-gcp #29~16.04.1-Ubuntu SMP Tue Feb 12 16:31:10 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+226uid=2000(travis) gid=2000(travis) groups=2000(travis),999(docker)
+227===================================================================
+228*** compiling with clang++ to create an executable called myprogram
+229===================================================================
+230clang version 7.0.0 (tags/RELEASE_700/final)
+231Target: x86_64-unknown-linux-gnu
+232Thread model: posix
+233InstalledDir: /usr/local/clang-7.0.0/bin
+234===================================================================
+235*** running myprogram
+236Test Basic Done!
+237testGraph0DFS
+238Test DFS Done!
+239testGraph0BFS
+240Test BFS Done!
+241testGraph0Dijkstra
+242Test Dijkstra Done!
+243testGraph0NotDirected
+244Test Not Directed Done!
+245testGraph1
+246Test Graph Done!
+247Done!
+248===================================================================
+249*** running clang-tidy using options from .clang-tidy
+250*** fix all warnings, modify .clang-tidy if necessary
+251*** explain all changes to .clang-tidy in README
+252LLVM (http://llvm.org/):
+253  LLVM version 7.0.0
+254  Optimized build.
+255  Default target: x86_64-unknown-linux-gnu
+256  Host CPU: skylake-avx512
+2573572 warnings generated.
+25825418 warnings generated.
+25931376 warnings generated.
+26035501 warnings generated.
+26153353 warnings generated.
+262/home/travis/build/uwbclass/uwb2020wi343b-graph-sarahyw10/graph.cpp:238:5: warning: use 'using' instead of 'typedef' [modernize-use-using]
+263    typedef pair<int, string> iPair;
+264    ^
+265Suppressed 53353 warnings (53352 in non-user code, 1 NOLINT).
+266Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+===================================================================
+*** generating new .clang-format based on LLVM style
+*** running clang-format for formatting suggestions
+*** examine all suggestions, fix selectively
+*** formatting suggestions for ./edge.cpp
+:009 OLD: //default constructor
+:010 OLD: Edge::Edge(Vertex *From, Vertex *To, int Weight) : V1(From),
+:011 OLD: V2(To), vWeight(Weight) {
+:012 OLD: }
+:013 OLD: //returns weight of edge
+:014 OLD: int Edge::getWeight() const{
+:015 OLD:   return vWeight;
+:016 OLD: }
+:    NEW: // default constructor
+:    NEW: Edge::Edge(Vertex *From, Vertex *To, int Weight)
+:    NEW:     : V1(From), V2(To), vWeight(Weight) {}
+:    NEW: // returns weight of edge
+:    NEW: int Edge::getWeight() const { return vWeight; }
+*** formatting suggestions for ./graph.cpp
+:005 OLD: #include <map>
+:006 OLD: #include <utility>
+:    NEW: #include <map>
+:    NEW: #include <utility>
+:015 OLD: Graph::Graph(bool DirectionalEdges)  {
+:    NEW: Graph::Graph(bool DirectionalEdges) {
+:017 OLD: //  Vertices.clear();
+:    NEW:   //  Vertices.clear();
+:021 OLD:   for(auto & I : Vertices){
+:    NEW:   for (auto &I : Vertices) {
+:036 OLD:   if(!inFile.is_open()){
+:    NEW:   if (!inFile.is_open()) {
+:041 OLD:   for (int I = 0; I < Edge; I++){
+:    NEW:   for (int I = 0; I < Edge; I++) {
+:058 OLD:   for(I = Vertices.begin(); I != Vertices.end(); I++){
+:    NEW:   for (I = Vertices.begin(); I != Vertices.end(); I++) {
+:068 OLD:   if(contains(Label)){
+:    NEW:   if (contains(Label)) {
+:077 OLD:   if(!contains(Label)){
+:    NEW:   if (!contains(Label)) {
+:094 OLD:   if(!contains(Label) || neighborsSize(Label) <= 0){
+:    NEW:   if (!contains(Label) || neighborsSize(Label) <= 0) {
+:097 OLD:   if(contains(Label)){
+:    NEW:   if (contains(Label)) {
+:101 OLD:     for(auto & I : Temp->Neighbors){
+:    NEW:     for (auto &I : Temp->Neighbors) {
+:106 OLD:     Edge.erase(Edge.end()-1);
+:    NEW:     Edge.erase(Edge.end() - 1);
+:123 OLD:     if(!Directional) {
+:    NEW:   if (!Directional) {
+:126 OLD:     pair<string, Edge> EdgeToAdd (To, NewEdge);
+:    NEW:     pair<string, Edge> EdgeToAdd(To, NewEdge);
+:128 OLD:     pair<string, Edge> EdgeToAdd2 (From, NewEdge2);
+:    NEW:     pair<string, Edge> EdgeToAdd2(From, NewEdge2);
+:131 OLD:   }
+:132 OLD:     else {
+:133 OLD:       if (FromP->Neighbors.find(To) == FromP->Neighbors.end()) {
+:134 OLD:         Edge NewEdge(FromP, ToP, Weight);
+:135 OLD:         pair<string, Edge> EdgeToAdd(To, NewEdge);
+:136 OLD:         FromP->Neighbors.insert(EdgeToAdd);
+:137 OLD:         return true;
+:138 OLD:       }
+:139 OLD:       return false;
+:    NEW:   } else {
+:    NEW:     if (FromP->Neighbors.find(To) == FromP->Neighbors.end()) {
+:    NEW:       Edge NewEdge(FromP, ToP, Weight);
+:    NEW:       pair<string, Edge> EdgeToAdd(To, NewEdge);
+:    NEW:       FromP->Neighbors.insert(EdgeToAdd);
+:    NEW:       return true;
+:    NEW:     return false;
+:    NEW:   }
+:151 OLD:   if(!Directional){
+:152 OLD:     if(Temp1->Neighbors.count(To) == 1 && Temp2->Neighbors.count(To) == 1){
+:    NEW:   if (!Directional) {
+:    NEW:     if (Temp1->Neighbors.count(To) == 1 && Temp2->Neighbors.count(To) == 1) {
+:159 OLD:   }
+:160 OLD:   else{
+:161 OLD:     if(Temp1->Neighbors.count(To) == 1 && Temp2->Neighbors.count(From) != 1){
+:    NEW:   } else {
+:    NEW:     if (Temp1->Neighbors.count(To) == 1 && Temp2->Neighbors.count(From) != 1) {
+:172 OLD: //  this->unVisitNeighbor();
+:    NEW:   //  this->unVisitNeighbor();
+:175 OLD:
+:177 OLD: //dfs helper, called in dfs function
+:178 OLD: void Graph::DFSHelper(const string &StartLabel, void Visit(const string &Label)) {
+:179 OLD:   if(contains(StartLabel)){
+:    NEW: // dfs helper, called in dfs function
+:    NEW: void Graph::DFSHelper(const string &StartLabel,
+:    NEW:                       void Visit(const string &Label)) {
+:    NEW:   if (contains(StartLabel)) {
+:181 OLD:     if(visited.count(StartLabel) == 0){
+:    NEW:     if (visited.count(StartLabel) == 0) {
+:184 OLD:       for(auto & I : Temp->Neighbors){
+:    NEW:       for (auto &I : Temp->Neighbors) {
+:186 OLD:         if(visited.count(Result) == 0){
+:    NEW:         if (visited.count(Result) == 0) {
+:194 OLD:
+:204 OLD:   while(!myQ.empty()){
+:    NEW:   while (!myQ.empty()) {
+:207 OLD:     for(const auto& I : Next->Neighbors){
+:    NEW:     for (const auto &I : Next->Neighbors) {
+:209 OLD:       if(!To->Visit){
+:    NEW:       if (!To->Visit) {
+:217 OLD: //checks off all items in map as unvisited
+:    NEW: // checks off all items in map as unvisited
+:219 OLD:   map<string, Vertex*>::iterator It = Vertices.begin();
+:220 OLD:   while(It != Vertices.end()){
+:    NEW:   map<string, Vertex *>::iterator It = Vertices.begin();
+:    NEW:   while (It != Vertices.end()) {
+:229 OLD: Graph::dijkstra(const string &StartLabel) const{
+:    NEW: Graph::dijkstra(const string &StartLabel) const {
+:234 OLD:   if(contains(StartLabel)) {
+:    NEW:   if (contains(StartLabel)) {
+:242 OLD:     priority_queue<iPair, vector<iPair>, greater<> > pq;
+:    NEW:     priority_queue<iPair, vector<iPair>, greater<>> pq;
+:292 OLD:   if(!contains(StartLabel)){
+:    NEW:   if (!contains(StartLabel)) {
+:302 OLD:                      map<string, bool> &Check) const{
+:    NEW:                      map<string, bool> &Check) const {
+:305 OLD:   for(int I=0; I < Size; I++){
+:    NEW:   for (int I = 0; I < Size; I++) {
+:307 OLD:     if(Check.find(Result) == Check.end()){
+:    NEW:     if (Check.find(Result) == Check.end()) {
+*** formatting suggestions for ./graphtest.cpp
+:062 OLD: //  cout << "<< Vert: " << G.verticesSize() << endl;
+:    NEW:   //  cout << "<< Vert: " << G.verticesSize() << endl;
+:064 OLD: //  cout << "<< Edge: " << G.edgesSize() << endl;
+:    NEW:   //  cout << "<< Edge: " << G.edgesSize() << endl;
+:074 OLD: //  // disconnect non-existent edge/vertex
+:    NEW:   //  // disconnect non-existent edge/vertex
+:083 OLD: //tests dfs
+:    NEW: // tests dfs
+:113 OLD: //tests BFS
+:    NEW: // tests BFS
+:137 OLD: //tests dijkstra function
+:    NEW: // tests dijkstra function
+:158 OLD: //test undirected graph
+:    NEW: // test undirected graph
+:182 OLD: //  map<string, int> Weights;
+:183 OLD: //  map<string, string> Previous;
+:184 OLD: //  tie(Weights, Previous) = G.dijkstra("A");
+:185 OLD: //   cout << "Dijkstra(A) weights is " << map2string(Weights) << endl;
+:186 OLD: ////  cout << Tester::getSs() << endl;
+:187 OLD: //  assert(map2string(Weights) == "[B:1][C:4]" && "Dijkstra(A) weights");
+:188 OLD: //   cout << "Dijkstra(A) previous is " << map2string(Previous) << endl;
+:189 OLD: //  assert(map2string(Previous) == "[B:A][C:B]" && "Dijkstra(A) previous");
+:190 OLD: ////
+:191 OLD: //  tie(Weights, Previous) = G.dijkstra("B");
+:192 OLD: //  cout << "Dijkstra(B) weights is " << map2string(Weights) << endl;
+:193 OLD: //  assert(map2string(Weights) == "[A:1][C:3]" && "Dijkstra(B) weights");
+:194 OLD: //  cout << "Dijkstra(B) previous is " << map2string(Previous) << endl;
+:195 OLD: //  assert(map2string(Previous) == "[A:B][C:B]" && "Dijkstra(B) previous");
+:196 OLD: //
+:197 OLD: //  tie(Weights, Previous) = G.dijkstra("X");
+:198 OLD: //  assert(map2string(Weights).empty() && "Dijkstra(C) weights");
+:199 OLD: //  assert(map2string(Previous).empty() && "Dijkstra(C) previous");
+:200 OLD:
+:201 OLD: //  Tester::resetSs();
+:202 OLD: //  int MstLength = G.mst("A", Tester::edgeVisitor);
+:203 OLD: ////  cout << MstLength << endl;
+:204 OLD: //  assert(MstLength == 4 && "mst A is 4");
+:205 OLD: ////  cout << Tester::getSs() << endl;
+:206 OLD: //  assert(Tester::getSs() == "[AB 1][BC 3]" && "mst A is [AB 1][BC 3]");
+:207 OLD: //
+:208 OLD: //  Tester::resetSs();
+:209 OLD: //  MstLength = G.mst("B", Tester::edgeVisitor);
+:210 OLD: //  assert(MstLength == 4 && "mst 4 is 4");
+:211 OLD: //  assert(Tester::getSs() == "[BA 1][BC 3]");
+:212 OLD: //
+:213 OLD: //  Tester::resetSs();
+:214 OLD: //  MstLength = G.mst("C", Tester::edgeVisitor);
+:215 OLD: //  assert(MstLength == 4 && "mst C is 4");
+:216 OLD: //  cout << MstLength << endl;
+:217 OLD: //  cout << Tester::getSs() << endl;
+:218 OLD: //  assert(Tester::getSs() == "[CB 3][BA 1]");
+:219 OLD: //
+:220 OLD: //  Tester::resetSs();
+:221 OLD: //  MstLength = G.mst("X", Tester::edgeVisitor);
+:222 OLD: //  assert(MstLength == -1 && "mst X is -1");
+:223 OLD: //  assert(Tester::getSs().empty() && "mst for vertex not found");
+:    NEW:   //  map<string, int> Weights;
+:    NEW:   //  map<string, string> Previous;
+:    NEW:   //  tie(Weights, Previous) = G.dijkstra("A");
+:    NEW:   //   cout << "Dijkstra(A) weights is " << map2string(Weights) << endl;
+:    NEW:   ////  cout << Tester::getSs() << endl;
+:    NEW:   //  assert(map2string(Weights) == "[B:1][C:4]" && "Dijkstra(A) weights");
+:    NEW:   //   cout << "Dijkstra(A) previous is " << map2string(Previous) << endl;
+:    NEW:   //  assert(map2string(Previous) == "[B:A][C:B]" && "Dijkstra(A) previous");
+:    NEW:   ////
+:    NEW:   //  tie(Weights, Previous) = G.dijkstra("B");
+:    NEW:   //  cout << "Dijkstra(B) weights is " << map2string(Weights) << endl;
+:    NEW:   //  assert(map2string(Weights) == "[A:1][C:3]" && "Dijkstra(B) weights");
+:    NEW:   //  cout << "Dijkstra(B) previous is " << map2string(Previous) << endl;
+:    NEW:   //  assert(map2string(Previous) == "[A:B][C:B]" && "Dijkstra(B) previous");
+:    NEW:   //
+:    NEW:   //  tie(Weights, Previous) = G.dijkstra("X");
+:    NEW:   //  assert(map2string(Weights).empty() && "Dijkstra(C) weights");
+:    NEW:   //  assert(map2string(Previous).empty() && "Dijkstra(C) previous");
+:    NEW:
+:    NEW:   //  Tester::resetSs();
+:    NEW:   //  int MstLength = G.mst("A", Tester::edgeVisitor);
+:    NEW:   ////  cout << MstLength << endl;
+:    NEW:   //  assert(MstLength == 4 && "mst A is 4");
+:    NEW:   ////  cout << Tester::getSs() << endl;
+:    NEW:   //  assert(Tester::getSs() == "[AB 1][BC 3]" && "mst A is [AB 1][BC 3]");
+:    NEW:   //
+:    NEW:   //  Tester::resetSs();
+:    NEW:   //  MstLength = G.mst("B", Tester::edgeVisitor);
+:    NEW:   //  assert(MstLength == 4 && "mst 4 is 4");
+:    NEW:   //  assert(Tester::getSs() == "[BA 1][BC 3]");
+:    NEW:   //
+:    NEW:   //  Tester::resetSs();
+:    NEW:   //  MstLength = G.mst("C", Tester::edgeVisitor);
+:    NEW:   //  assert(MstLength == 4 && "mst C is 4");
+:    NEW:   //  cout << MstLength << endl;
+:    NEW:   //  cout << Tester::getSs() << endl;
+:    NEW:   //  assert(Tester::getSs() == "[CB 3][BA 1]");
+:    NEW:   //
+:    NEW:   //  Tester::resetSs();
+:    NEW:   //  MstLength = G.mst("X", Tester::edgeVisitor);
+:    NEW:   //  assert(MstLength == -1 && "mst X is -1");
+:    NEW:   //  assert(Tester::getSs().empty() && "mst for vertex not found");
+:226 OLD: //tests graph1
+:    NEW: // tests graph1
+:235 OLD: //  cout << Tester::getSs() << endl;
+:236 OLD:
+:    NEW:   //  cout << Tester::getSs() << endl;
+:241 OLD: //  cout << Tester::getSs() << endl;
+:    NEW:   //  cout << Tester::getSs() << endl;
+*** formatting suggestions for ./main.cpp
+*** formatting suggestions for ./vertex.cpp
+:018 OLD:
+:029 OLD:   if(It == Neighbors.end()){
+:    NEW:   if (It == Neighbors.end()) {
+:035 OLD:   if(It->first != Next->first){
+:    NEW:   if (It->first != Next->first) {
+:040 OLD: //returns weight of particular edge of a string
+:041 OLD: int Vertex::getEWeight(const string &To) const{
+:042 OLD:   if(Neighbors.find(To) != Neighbors.end()){
+:    NEW: // returns weight of particular edge of a string
+:    NEW: int Vertex::getEWeight(const string &To) const {
+:    NEW:   if (Neighbors.find(To) != Neighbors.end()) {
+:047 OLD: //returns size of map
+:048 OLD: int Vertex::getNum() const {
+:049 OLD:   return Neighbors.size();
+:050 OLD: }
+:051 OLD: //resets map to iterate from beginning
+:052 OLD: void Vertex::reset() {
+:053 OLD:   Curr = Neighbors.begin();
+:054 OLD: }
+:055 OLD: //returns vertex label
+:056 OLD: string Vertex::getVLabel() const {
+:057 OLD:   return vertexLabel;
+:058 OLD: }
+:059 OLD: //checks off item as unvisited
+:060 OLD: void Vertex::unVisit() {
+:061 OLD:   Visit = false;
+:062 OLD: }
+:    NEW: // returns size of map
+:    NEW: int Vertex::getNum() const { return Neighbors.size(); }
+:    NEW: // resets map to iterate from beginning
+:    NEW: void Vertex::reset() { Curr = Neighbors.begin(); }
+:    NEW: // returns vertex label
+:    NEW: string Vertex::getVLabel() const { return vertexLabel; }
+:    NEW: // checks off item as unvisited
+:    NEW: void Vertex::unVisit() { Visit = false; }
+:064 OLD: Vertex::~Vertex() {
+:065 OLD:   Neighbors.clear();
+:066 OLD: }
+:067 OLD:
+:068 OLD:
+:069 OLD:
+:    NEW: Vertex::~Vertex() { Neighbors.clear(); }
+===================================================================
+*** running valgrind to detect memory leaks
+==23288==     in use at exit: 0 bytes in 0 blocks
+===================================================================
+*** compiling with clang++ to checking for memory leaks
+===================================================================
+*** running myprogram with memory checking
+Test Basic Done!
+testGraph0DFS
+Test DFS Done!
+testGraph0BFS
+Test BFS Done!
+testGraph0Dijkstra
+Test Dijkstra Done!
+testGraph0NotDirected
+Test Not Directed Done!
+testGraph1
+Test Graph Done!
+Done!
+===================================================================
+*** using --analyze option for clang++ to detect issues
+===================================================================
+*** cleaning up, deleting myprogram, myprogram.dSYM and core
+===================================================================
+Tue Feb 11 23:17:36 PST 2020
+===================================================================
+./simplecompile.sh exiting with 0
