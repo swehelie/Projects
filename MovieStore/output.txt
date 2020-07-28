@@ -1,0 +1,1705 @@
+Wed Mar 11 22:20:28 PDT 2020
+Linux csslab7.uwb.edu 3.10.0-957.27.2.el7.x86_64 #1 SMP Mon Jul 29 17:46:05 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+uid=1015514(sarahyw) gid=2121015514(sarahyw) groups=2121015514(sarahyw),605559(lab-access) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+*** compiling with clang++ to create an executable called myprogram
+clang version 7.0.1 (tags/RELEASE_701/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /opt/rh/llvm-toolset-7.0/root/usr/bin
+*** running myprogram
+
+Inventory: 
+
+==== Comedy ====
+Movie Type ~ Stock ~ Director ~ Title ~ Year
+F, 10, Woody Allen, Annie Hall, 1977
+F, 10, Joel Coen, Fargo, 1996
+F, 10, John Landis, National Lampoon's Animal House, 1978
+F, 10, Different Years, Pirates of the Caribbean, 2000
+F, 10, Gore Verbinski, Pirates of the Caribbean, 2003
+F, 10, Nora Ephron, Sleepless in Seattle, 1993
+F, 10, Rob Reiner, When Harry Met Sally, 1989
+F, 10, Nora Ephron, You've Got Mail, 1998
+
+==== Drama ====
+Movie Type ~ Stock ~ Director ~ Title ~ Year
+D, 10, Barry Levinson, Good Morning Vietnam, 1988
+D, 10, Barry Levinson, Same Director Good Morning Vietnam, 1988
+D, 10, Clint Eastwood, Unforgiven, 1992
+D, 10, Gus Van Sant, Good Will Hunting, 2000
+D, 10, Jonathan Demme, Silence of the Lambs, 1991
+D, 10, Nancy Savoca, Dogfight, 1991
+D, 10, Phillippe De Broca, King of Hearts, 1967
+D, 10, Steven Spielberg, Schindler's List, 1993
+
+==== Classics ====
+Movie Type ~ Stock ~ Director ~ Title ~ Actor ~ Month ~ Year
+C, 10, George Cukor, Holiday, Cary Grant, 9 1938
+C, 10, George Cukor, Holiday, Katherine Hepburn, 9 1938
+C, 10, Victor Fleming, Gone With the Wind, Clark Gable, 2 1939
+C, 10, Victor Fleming, Gone With the Wind, Vivien Leigh, 2 1939
+C, 10, Victor Fleming, The Wizard of Oz, Judy Garland, 7 1939
+C, 10, George Cukor, The Philadelphia Story, Cary Grant, 5 1940
+C, 10, George Cukor, The Philadelphia Story, Katherine Hepburn, 5 1940
+C, 10, John Huston, The Maltese Falcon, Humphrey Bogart, 10 1941
+C, 10, Michael Curtiz, Casablanca, Humphrey Bogart, 8 1942
+C, 10, Michael Curtiz, Casablanca, Ingrid Bergman, 8 1942
+C, 10, Frank Capra, It's a Wonderful Life, Donna Reed, 11 1946
+C, 10, Frank Capra, It's a Wonderful Life, James Steward, 11 1946
+C, 10, Stanley Kubrick, A Clockwork Orange, Malcolm McDowell, 2 1971
+C, 10, Hal Ashby, Harold and Maude, Ruth Gordon, 3 1971
+
+
+History: Mouse Minnie
+1000 Mouse Minnie
+
+
+History: Frog Freddie
+5000 Frog Freddie
+
+
+History: Wacky Wally
+8000 Wacky Wally
+
+ERR:: INVALID MOVIE CODE - Z
+ERR:: CUSTOMER ID 0 IS NOT VALID.
+ERR:: INVALID COMMAND - Z
+ERR:: CUSTOMER ID 1234 IS NOT VALID.
+ERR:: THE MOVIE F: Bogus Title 2001 DOES NOT EXIST. 
+ERR:: INVALID MEDIA TYPE - Z
+ERR:: MOVIE OUT OF STOCK -- Classic, Harold and Maude, Hal Ashby 1971
+ERR:: MOVIE OUT OF STOCK -- Classic, Harold and Maude, Hal Ashby 1971
+ERR:: MOVIE OUT OF STOCK -- Classic, Harold and Maude, Hal Ashby 1971
+ERR:: THE MOVIE D: Bogus Title Steven Spielberg DOES NOT EXIST. 
+
+Inventory: 
+
+==== Comedy ====
+Movie Type ~ Stock ~ Director ~ Title ~ Year
+F, 9, Woody Allen, Annie Hall, 1977
+F, 9, Joel Coen, Fargo, 1996
+F, 9, John Landis, National Lampoon's Animal House, 1978
+F, 10, Different Years, Pirates of the Caribbean, 2000
+F, 10, Gore Verbinski, Pirates of the Caribbean, 2003
+F, 9, Nora Ephron, Sleepless in Seattle, 1993
+F, 9, Rob Reiner, When Harry Met Sally, 1989
+F, 9, Nora Ephron, You've Got Mail, 1998
+
+==== Drama ====
+Movie Type ~ Stock ~ Director ~ Title ~ Year
+D, 9, Barry Levinson, Good Morning Vietnam, 1988
+D, 10, Barry Levinson, Same Director Good Morning Vietnam, 1988
+D, 9, Clint Eastwood, Unforgiven, 1992
+D, 9, Gus Van Sant, Good Will Hunting, 2000
+D, 9, Jonathan Demme, Silence of the Lambs, 1991
+D, 8, Nancy Savoca, Dogfight, 1991
+D, 9, Phillippe De Broca, King of Hearts, 1967
+D, 9, Steven Spielberg, Schindler's List, 1993
+
+==== Classics ====
+Movie Type ~ Stock ~ Director ~ Title ~ Actor ~ Month ~ Year
+C, 9, George Cukor, Holiday, Cary Grant, 9 1938
+C, 10, George Cukor, Holiday, Katherine Hepburn, 9 1938
+C, 10, Victor Fleming, Gone With the Wind, Clark Gable, 2 1939
+C, 10, Victor Fleming, Gone With the Wind, Vivien Leigh, 2 1939
+C, 10, Victor Fleming, The Wizard of Oz, Judy Garland, 7 1939
+C, 9, George Cukor, The Philadelphia Story, Cary Grant, 5 1940
+C, 9, George Cukor, The Philadelphia Story, Katherine Hepburn, 5 1940
+C, 9, John Huston, The Maltese Falcon, Humphrey Bogart, 10 1941
+C, 10, Michael Curtiz, Casablanca, Humphrey Bogart, 8 1942
+C, 10, Michael Curtiz, Casablanca, Ingrid Bergman, 8 1942
+C, 10, Frank Capra, It's a Wonderful Life, Donna Reed, 11 1946
+C, 10, Frank Capra, It's a Wonderful Life, James Steward, 11 1946
+C, 9, Stanley Kubrick, A Clockwork Orange, Malcolm McDowell, 2 1971
+C, 0, Hal Ashby, Harold and Maude, Ruth Gordon, 3 1971
+
+
+History: Mouse Minnie
+1000 Mouse Minnie
+-BORROWED: Drama, Good Morning Vietnam, Barry Levinson 1988
+-BORROWED: Classic, The Philadelphia Story, George Cukor 1940
+-BORROWED: Drama, Good Will Hunting, Gus Van Sant 2000
+-BORROWED: Classic, The Philadelphia Story, George Cukor 1940
+-BORROWED: Classic, Harold and Maude, Hal Ashby 1971
+
+
+History: Mouse Mickey
+1111 Mouse Mickey
+-BORROWED: Classic, A Clockwork Orange, Stanley Kubrick 1971
+-BORROWED: Classic, Harold and Maude, Hal Ashby 1971
+-BORROWED: Classic, The Maltese Falcon, John Huston 1941
+-BORROWED: Classic, Holiday, George Cukor 1938
+
+
+History: Frog Freddie
+5000 Frog Freddie
+-BORROWED: Classic, Harold and Maude, Hal Ashby 1971
+-RETURNED: Classic, Harold and Maude, Hal Ashby 1971
+-BORROWED: Classic, Harold and Maude, Hal Ashby 1971
+-RETURNED: Classic, Harold and Maude, Hal Ashby 1971
+-BORROWED: Classic, Harold and Maude, Hal Ashby 1971
+-RETURNED: Classic, Harold and Maude, Hal Ashby 1971
+-BORROWED: Classic, Harold and Maude, Hal Ashby 1971
+
+
+History: Wacky Wally
+8000 Wacky Wally
+-BORROWED: Comedy, You've Got Mail, Nora Ephron 1998
+-RETURNED: Comedy, You've Got Mail, Nora Ephron 1998
+-BORROWED: Classic, Harold and Maude, Hal Ashby 1971
+-BORROWED: Classic, Harold and Maude, Hal Ashby 1971
+-BORROWED: Comedy, National Lampoon's Animal House, John Landis 1978
+
+
+History: Pig Porky
+8888 Pig Porky
+-BORROWED: Comedy, Annie Hall, Woody Allen 1977
+-BORROWED: Comedy, When Harry Met Sally, Rob Reiner 1989
+-BORROWED: Drama, Silence of the Lambs, Jonathan Demme 1991
+-BORROWED: Drama, Dogfight, Nancy Savoca 1991
+-BORROWED: Classic, Harold and Maude, Hal Ashby 1971
+
+Done.
+*** running clang-tidy using options from .clang-tidy
+LLVM (http://llvm.org/):
+  LLVM version 7.0.1
+  Optimized build.
+  Default target: x86_64-unknown-linux-gnu
+  Host CPU: broadwell
+14659 warnings generated.
+24973 warnings generated.
+35683 warnings generated.
+46392 warnings generated.
+63374 warnings generated.
+74083 warnings generated.
+88756 warnings generated.
+103415 warnings generated.
+118069 warnings generated.
+128383 warnings generated.
+139079 warnings generated.
+153737 warnings generated.
+169718 warnings generated.
+185460 warnings generated.
+200324 warnings generated.
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:26:28: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   void removeMovie(Movie *mvPtr);
+                           ^~~~~~
+                           MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:27:25: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   bool isRented(Movie *mvPtr);
+                        ^~~~~~
+                        MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:28:25: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   void addMovie(Movie *mvPtr);
+                        ^~~~~~
+                        MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.h:29:3: warning: use '= default' to define a trivial default constructor [hicpp-use-equals-default]
+  Store(){}
+  ^      ~~
+         = default;
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.h:42:24: warning: invalid case style for variable 'mediaType' [readability-identifier-naming]
+    static set<string> mediaType;
+                       ^~~~~~~~~~
+                       MediaType
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/transaction.h:21:5: warning: use '= default' to define a trivial default constructor [hicpp-use-equals-default]
+    Transaction(){}
+    ^            ~~
+                 = default;
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/transaction.h:28:35: warning: invalid case style for parameter 'commandType' [readability-identifier-naming]
+    static Transaction* make(char commandType, Customer* Cust, Movie* Mv);
+                                  ^~~~~~~~~~~~
+                                  CommandType
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/classics.cpp:10:1: warning: constructor does not initialize these fields: Stock [cppcoreguidelines-pro-type-member-init]
+Classics::Classics(const string& Actor, const int& Month, const int& Year) {
+^
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/classics.cpp:75:20: warning: C-style casts are discouraged; use static_cast/const_cast/reinterpret_cast [google-readability-casting]
+  const auto* Cl = (const Classics*)Mv;
+                   ^
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/classics.cpp:75:20: warning: do not use C-style cast to downcast from a base to a derived class; use dynamic_cast instead [cppcoreguidelines-pro-type-cstyle-cast]
+  const auto* Cl = (const Classics*)Mv;
+                   ^~~~~~~~~~~~~~~~~~~~
+                   dynamic_cast<const Classics*>()
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/classics.cpp:82:20: warning: C-style casts are discouraged; use static_cast/const_cast/reinterpret_cast [google-readability-casting]
+  const auto* Cl = (const Classics*)Mv;
+                   ^
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/classics.cpp:82:20: warning: do not use C-style cast to downcast from a base to a derived class; use dynamic_cast instead [cppcoreguidelines-pro-type-cstyle-cast]
+  const auto* Cl = (const Classics*)Mv;
+                   ^~~~~~~~~~~~~~~~~~~~
+                   dynamic_cast<const Classics*>()
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/comedy.cpp:10:1: warning: constructor does not initialize these fields: Stock [cppcoreguidelines-pro-type-member-init]
+Comedy::Comedy(const string& Title, const int& Year) {
+^
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/comedy.cpp:70:20: warning: C-style casts are discouraged; use static_cast/const_cast/reinterpret_cast [google-readability-casting]
+  const auto* Cm = (const Comedy*)Mv;
+                   ^
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/comedy.cpp:70:20: warning: do not use C-style cast to downcast from a base to a derived class; use dynamic_cast instead [cppcoreguidelines-pro-type-cstyle-cast]
+  const auto* Cm = (const Comedy*)Mv;
+                   ^~~~~~~~~~~~~~~~~~
+                   dynamic_cast<const Comedy*>()
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/comedy.cpp:77:20: warning: C-style casts are discouraged; use static_cast/const_cast/reinterpret_cast [google-readability-casting]
+  const auto* Cm = (const Comedy*)Mv;
+                   ^
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/comedy.cpp:77:20: warning: do not use C-style cast to downcast from a base to a derived class; use dynamic_cast instead [cppcoreguidelines-pro-type-cstyle-cast]
+  const auto* Cm = (const Comedy*)Mv;
+                   ^~~~~~~~~~~~~~~~~~
+                   dynamic_cast<const Comedy*>()
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.cpp:16:11: warning: parameter 'Name' is passed by value and only copied once; consider moving it to avoid unnecessary copies [performance-unnecessary-value-param]
+  CName = Name;
+          ^~~~~
+          std::move()
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.cpp:49:35: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+void Customer::removeMovie(Movie *mvPtr) {
+                                  ^~~~~~
+                                  MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.cpp:56:32: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+bool Customer::isRented(Movie *mvPtr) {
+                               ^~~~~~
+                               MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.cpp:59:12: warning: redundant boolean literal in conditional return statement [readability-simplify-boolean-expr]
+    return true;
+~~~~~~~~~~~^~~~~
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.cpp:64:32: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+void Customer::addMovie(Movie *mvPtr) {
+                               ^~~~~~
+                               MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:26:28: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   void removeMovie(Movie *mvPtr);
+                           ^~~~~~
+                           MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:27:25: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   bool isRented(Movie *mvPtr);
+                        ^~~~~~
+                        MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:28:25: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   void addMovie(Movie *mvPtr);
+                        ^~~~~~
+                        MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.h:29:3: warning: use '= default' to define a trivial default constructor [hicpp-use-equals-default]
+  Store(){}
+  ^      ~~
+         = default;
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.h:42:24: warning: invalid case style for variable 'mediaType' [readability-identifier-naming]
+    static set<string> mediaType;
+                       ^~~~~~~~~~
+                       MediaType
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/transaction.h:21:5: warning: use '= default' to define a trivial default constructor [hicpp-use-equals-default]
+    Transaction(){}
+    ^            ~~
+                 = default;
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/transaction.h:28:35: warning: invalid case style for parameter 'commandType' [readability-identifier-naming]
+    static Transaction* make(char commandType, Customer* Cust, Movie* Mv);
+                                  ^~~~~~~~~~~~
+                                  CommandType
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/drama.cpp:11:1: warning: constructor does not initialize these fields: Stock, Year [cppcoreguidelines-pro-type-member-init]
+Drama::Drama(const string& Director, const string& Title) {
+^
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/drama.cpp:62:20: warning: C-style casts are discouraged; use static_cast/const_cast/reinterpret_cast [google-readability-casting]
+  const auto* Dm = (const Drama*)Mv;
+                   ^
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/drama.cpp:62:20: warning: do not use C-style cast to downcast from a base to a derived class; use dynamic_cast instead [cppcoreguidelines-pro-type-cstyle-cast]
+  const auto* Dm = (const Drama*)Mv;
+                   ^~~~~~~~~~~~~~~~~
+                   dynamic_cast<const Drama*>()
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/drama.cpp:68:20: warning: C-style casts are discouraged; use static_cast/const_cast/reinterpret_cast [google-readability-casting]
+  const auto* Dm = (const Drama*)Mv;
+                   ^
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/drama.cpp:68:20: warning: do not use C-style cast to downcast from a base to a derived class; use dynamic_cast instead [cppcoreguidelines-pro-type-cstyle-cast]
+  const auto* Dm = (const Drama*)Mv;
+                   ^~~~~~~~~~~~~~~~~
+                   dynamic_cast<const Drama*>()
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:26:28: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   void removeMovie(Movie *mvPtr);
+                           ^~~~~~
+                           MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:27:25: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   bool isRented(Movie *mvPtr);
+                        ^~~~~~
+                        MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:28:25: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   void addMovie(Movie *mvPtr);
+                        ^~~~~~
+                        MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.h:29:3: warning: use '= default' to define a trivial default constructor [hicpp-use-equals-default]
+  Store(){}
+  ^      ~~
+         = default;
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.h:42:24: warning: invalid case style for variable 'mediaType' [readability-identifier-naming]
+    static set<string> mediaType;
+                       ^~~~~~~~~~
+                       MediaType
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/transaction.h:21:5: warning: use '= default' to define a trivial default constructor [hicpp-use-equals-default]
+    Transaction(){}
+    ^            ~~
+                 = default;
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/transaction.h:28:35: warning: invalid case style for parameter 'commandType' [readability-identifier-naming]
+    static Transaction* make(char commandType, Customer* Cust, Movie* Mv);
+                                  ^~~~~~~~~~~~
+                                  CommandType
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:26:28: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   void removeMovie(Movie *mvPtr);
+                           ^~~~~~
+                           MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:27:25: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   bool isRented(Movie *mvPtr);
+                        ^~~~~~
+                        MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:28:25: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   void addMovie(Movie *mvPtr);
+                        ^~~~~~
+                        MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/history.h:13:5: warning: constructor does not initialize these fields: Cust [cppcoreguidelines-pro-type-member-init]
+    History(){}
+    ^
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/history.h:13:5: warning: use '= default' to define a trivial default constructor [hicpp-use-equals-default]
+    History(){}
+    ^        ~~
+             = default;
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.h:29:3: warning: use '= default' to define a trivial default constructor [hicpp-use-equals-default]
+  Store(){}
+  ^      ~~
+         = default;
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.h:42:24: warning: invalid case style for variable 'mediaType' [readability-identifier-naming]
+    static set<string> mediaType;
+                       ^~~~~~~~~~
+                       MediaType
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/transaction.h:21:5: warning: use '= default' to define a trivial default constructor [hicpp-use-equals-default]
+    Transaction(){}
+    ^            ~~
+                 = default;
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/transaction.h:28:35: warning: invalid case style for parameter 'commandType' [readability-identifier-naming]
+    static Transaction* make(char commandType, Customer* Cust, Movie* Mv);
+                                  ^~~~~~~~~~~~
+                                  CommandType
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:26:28: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   void removeMovie(Movie *mvPtr);
+                           ^~~~~~
+                           MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:27:25: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   bool isRented(Movie *mvPtr);
+                        ^~~~~~
+                        MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:28:25: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   void addMovie(Movie *mvPtr);
+                        ^~~~~~
+                        MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.h:29:3: warning: use '= default' to define a trivial default constructor [hicpp-use-equals-default]
+  Store(){}
+  ^      ~~
+         = default;
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.h:42:24: warning: invalid case style for variable 'mediaType' [readability-identifier-naming]
+    static set<string> mediaType;
+                       ^~~~~~~~~~
+                       MediaType
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/transaction.h:21:5: warning: use '= default' to define a trivial default constructor [hicpp-use-equals-default]
+    Transaction(){}
+    ^            ~~
+                 = default;
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/transaction.h:28:35: warning: invalid case style for parameter 'commandType' [readability-identifier-naming]
+    static Transaction* make(char commandType, Customer* Cust, Movie* Mv);
+                                  ^~~~~~~~~~~~
+                                  CommandType
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/movie.cpp:14:8: warning: invalid case style for variable 'movieType' [readability-identifier-naming]
+  char movieType = Line[0];
+       ^~~~~~~~~
+       MovieType
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/movie.cpp:20:20: warning: invalid case style for variable 'ss' [readability-identifier-naming]
+      stringstream ss(Line);
+                   ^~~
+                   Ss
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/movie.cpp:32:14: warning: invalid case style for variable 'actorF' [readability-identifier-naming]
+      string actorF, actorL, actorFull;
+             ^~~~~~~
+             ActorF
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/movie.cpp:32:22: warning: invalid case style for variable 'actorL' [readability-identifier-naming]
+      string actorF, actorL, actorFull;
+                     ^~~~~~~
+                     ActorL
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/movie.cpp:32:30: warning: invalid case style for variable 'actorFull' [readability-identifier-naming]
+      string actorF, actorL, actorFull;
+                             ^~~~~~~~~~
+                             ActorFull
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/movie.cpp:43:20: warning: invalid case style for variable 'ss' [readability-identifier-naming]
+      stringstream ss(Line);
+                   ^~~
+                   Ss
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/movie.cpp:61:20: warning: invalid case style for variable 'ss' [readability-identifier-naming]
+      stringstream ss(Line);
+                   ^~~
+                   Ss
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:26:28: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   void removeMovie(Movie *mvPtr);
+                           ^~~~~~
+                           MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:27:25: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   bool isRented(Movie *mvPtr);
+                        ^~~~~~
+                        MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:28:25: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   void addMovie(Movie *mvPtr);
+                        ^~~~~~
+                        MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.h:29:3: warning: use '= default' to define a trivial default constructor [hicpp-use-equals-default]
+  Store(){}
+  ^      ~~
+         = default;
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.h:42:24: warning: invalid case style for variable 'mediaType' [readability-identifier-naming]
+    static set<string> mediaType;
+                       ^~~~~~~~~~
+                       MediaType
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/transaction.h:21:5: warning: use '= default' to define a trivial default constructor [hicpp-use-equals-default]
+    Transaction(){}
+    ^            ~~
+                 = default;
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/transaction.h:28:35: warning: invalid case style for parameter 'commandType' [readability-identifier-naming]
+    static Transaction* make(char commandType, Customer* Cust, Movie* Mv);
+                                  ^~~~~~~~~~~~
+                                  CommandType
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:26:28: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   void removeMovie(Movie *mvPtr);
+                           ^~~~~~
+                           MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:27:25: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   bool isRented(Movie *mvPtr);
+                        ^~~~~~
+                        MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:28:25: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   void addMovie(Movie *mvPtr);
+                        ^~~~~~
+                        MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.cpp:11:20: warning: invalid case style for variable 'mediaType' [readability-identifier-naming]
+set<string> Store::mediaType = {"D"};
+                   ^~~~~~~~~
+                   MediaType
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.cpp:25:12: warning: invalid case style for variable 'myFile' [readability-identifier-naming]
+  ifstream myFile(FileName);
+           ^~~~~~~
+           MyFile
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.cpp:55:12: warning: invalid case style for variable 'myFile' [readability-identifier-naming]
+  ifstream myFile(FileName);
+           ^~~~~~~
+           MyFile
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.cpp:74:12: warning: invalid case style for variable 'myFile' [readability-identifier-naming]
+  ifstream myFile(FileName);
+           ^~~~~~~
+           MyFile
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.cpp:76:16: warning: invalid case style for variable 'ss' [readability-identifier-naming]
+  stringstream ss;
+               ^~~
+               Ss
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.h:29:3: warning: use '= default' to define a trivial default constructor [hicpp-use-equals-default]
+  Store(){}
+  ^      ~~
+         = default;
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.h:42:24: warning: invalid case style for variable 'mediaType' [readability-identifier-naming]
+    static set<string> mediaType;
+                       ^~~~~~~~~~
+                       MediaType
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/transaction.h:21:5: warning: use '= default' to define a trivial default constructor [hicpp-use-equals-default]
+    Transaction(){}
+    ^            ~~
+                 = default;
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/transaction.h:28:35: warning: invalid case style for parameter 'commandType' [readability-identifier-naming]
+    static Transaction* make(char commandType, Customer* Cust, Movie* Mv);
+                                  ^~~~~~~~~~~~
+                                  CommandType
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:26:28: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   void removeMovie(Movie *mvPtr);
+                           ^~~~~~
+                           MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:27:25: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   bool isRented(Movie *mvPtr);
+                        ^~~~~~
+                        MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:28:25: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   void addMovie(Movie *mvPtr);
+                        ^~~~~~
+                        MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.h:29:3: warning: use '= default' to define a trivial default constructor [hicpp-use-equals-default]
+  Store(){}
+  ^      ~~
+         = default;
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.h:42:24: warning: invalid case style for variable 'mediaType' [readability-identifier-naming]
+    static set<string> mediaType;
+                       ^~~~~~~~~~
+                       MediaType
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store_test.cpp:21:10: warning: invalid case style for variable 'cfile' [readability-identifier-naming]
+  string cfile = "testcommands-1.txt";
+         ^~~~~
+         Cfile
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store_test.cpp:22:16: warning: invalid case style for variable 'out' [readability-identifier-naming]
+  stringstream out;
+               ^~~~
+               Out
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store_test.cpp:23:12: warning: invalid case style for variable 'fs' [readability-identifier-naming]
+  ifstream fs(cfile);
+           ^~~
+           Fs
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store_test.cpp:25:8: warning: invalid case style for variable 'commandType' [readability-identifier-naming]
+  char commandType;
+       ^~~~~~~~~~~~
+       CommandType
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store_test.cpp:26:10: warning: invalid case style for variable 'discard' [readability-identifier-naming]
+  string discard;
+         ^~~~~~~~
+         Discard
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store_test.cpp:32:10: warning: invalid case style for variable 'result' [readability-identifier-naming]
+  string result = "IHHBRIBBIH";
+         ^~~~~~
+         Result
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/transaction.h:21:5: warning: use '= default' to define a trivial default constructor [hicpp-use-equals-default]
+    Transaction(){}
+    ^            ~~
+                 = default;
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/transaction.h:28:35: warning: invalid case style for parameter 'commandType' [readability-identifier-naming]
+    static Transaction* make(char commandType, Customer* Cust, Movie* Mv);
+                                  ^~~~~~~~~~~~
+                                  CommandType
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:26:28: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   void removeMovie(Movie *mvPtr);
+                           ^~~~~~
+                           MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:27:25: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   bool isRented(Movie *mvPtr);
+                        ^~~~~~
+                        MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/customer.h:28:25: warning: invalid case style for parameter 'mvPtr' [readability-identifier-naming]
+   void addMovie(Movie *mvPtr);
+                        ^~~~~~
+                        MvPtr
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/history.h:13:5: warning: constructor does not initialize these fields: Cust [cppcoreguidelines-pro-type-member-init]
+    History(){}
+    ^
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/history.h:13:5: warning: use '= default' to define a trivial default constructor [hicpp-use-equals-default]
+    History(){}
+    ^        ~~
+             = default;
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.h:29:3: warning: use '= default' to define a trivial default constructor [hicpp-use-equals-default]
+  Store(){}
+  ^      ~~
+         = default;
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/store.h:42:24: warning: invalid case style for variable 'mediaType' [readability-identifier-naming]
+    static set<string> mediaType;
+                       ^~~~~~~~~~
+                       MediaType
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/transaction.cpp:25:16: warning: invalid case style for variable 'ss' [readability-identifier-naming]
+  stringstream ss(Line);
+               ^~~
+               Ss
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/transaction.cpp:118:37: warning: invalid case style for parameter 'commandType' [readability-identifier-naming]
+Transaction* Transaction::make(char commandType, Customer *Cust, Movie *Mv) {
+                                    ^~~~~~~~~~~~
+                                    CommandType
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/transaction.h:21:5: warning: use '= default' to define a trivial default constructor [hicpp-use-equals-default]
+    Transaction(){}
+    ^            ~~
+                 = default;
+/home/NETID/sarahyw/ucourses/css343/uwb2020wi343b-movies-sarahyw10/transaction.h:28:35: warning: invalid case style for parameter 'commandType' [readability-identifier-naming]
+    static Transaction* make(char commandType, Customer* Cust, Movie* Mv);
+                                  ^~~~~~~~~~~~
+                                  CommandType
+Suppressed 200192 warnings (200192 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+*** running clang-format format formatting suggestions
+*** formatting suggestions for borrow.cpp
+20,22c20,21
+<   cout << "-BORROWED: " << MPtr->getGenre() << ", " <<
+<   MPtr->getTitle() << ", " << MPtr->getDirector() << " " <<
+<   MPtr->getYear() << endl;
+---
+>   cout << "-BORROWED: " << MPtr->getGenre() << ", " << MPtr->getTitle() << ", "
+>        << MPtr->getDirector() << " " << MPtr->getYear() << endl;
+28c27
+<   if(MPtr->getStock() > 0){
+---
+>   if (MPtr->getStock() > 0) {
+39,42c38,41
+<   else{
+<     cout << "ERR:: MOVIE OUT OF STOCK -- " << MPtr->getGenre() << ", " <<
+<     MPtr->getTitle() << ", " << MPtr->getDirector() <<  " " <<
+<     MPtr->getYear() << endl;
+---
+>   else {
+>     cout << "ERR:: MOVIE OUT OF STOCK -- " << MPtr->getGenre() << ", "
+>          << MPtr->getTitle() << ", " << MPtr->getDirector() << " "
+>          << MPtr->getYear() << endl;
+*** formatting suggestions for bst.cpp
+11,13c11
+< BinarySearch::BinarySearch(){
+<   Root = nullptr;
+< }
+---
+> BinarySearch::BinarySearch() { Root = nullptr; }
+16,18c14
+< BinarySearch::~BinarySearch() {
+<   clear();
+< }
+---
+> BinarySearch::~BinarySearch() { clear(); }
+22,24c18
+< bool BinarySearch::isEmpty() const {
+<   return (Root == nullptr);
+< }
+---
+> bool BinarySearch::isEmpty() const { return (Root == nullptr); }
+27,29c21
+< void BinarySearch::clear() {
+<   clearH(Root);
+< }
+---
+> void BinarySearch::clear() { clearH(Root); }
+32,33c24,25
+< void BinarySearch::clearH(Node* Curr){
+<   if(Curr == nullptr){
+---
+> void BinarySearch::clearH(Node *Curr) {
+>   if (Curr == nullptr) {
+36,40c28,32
+<     clearH(Curr->Left);
+<     clearH(Curr->Right);
+<     delete Curr->Data;
+<     Curr->Data = nullptr;
+<     delete Curr;
+---
+>   clearH(Curr->Left);
+>   clearH(Curr->Right);
+>   delete Curr->Data;
+>   Curr->Data = nullptr;
+>   delete Curr;
+45,47c37
+< bool BinarySearch::insert(Movie *Mv) {
+<   return insertH(Root, Mv);
+< }
+---
+> bool BinarySearch::insert(Movie *Mv) { return insertH(Root, Mv); }
+51c41
+<   if(Curr == nullptr){
+---
+>   if (Curr == nullptr) {
+57c47
+<   if(Curr->Data->isEqual(Mv)){
+---
+>   if (Curr->Data->isEqual(Mv)) {
+62c52
+<   if(Curr->Data->moreThan(Mv)){
+---
+>   if (Curr->Data->moreThan(Mv)) {
+64,65c54
+<   }
+<   else{
+---
+>   } else {
+72,74c61
+< Movie* BinarySearch::retrieve(const Movie *Mv) {
+<   return retrieveH(Root, Mv);
+< }
+---
+> Movie *BinarySearch::retrieve(const Movie *Mv) { return retrieveH(Root, Mv); }
+77,78c64
+< Movie* BinarySearch::retrieveH(Node *&Curr,
+<                                const Movie *Mv) const {
+---
+> Movie *BinarySearch::retrieveH(Node *&Curr, const Movie *Mv) const {
+92,94c78
+< void BinarySearch::printOutput() {
+<   inOrder(Root);
+< }
+---
+> void BinarySearch::printOutput() { inOrder(Root); }
+98c82,84
+<   if(Curr == nullptr) { return; }
+---
+>   if (Curr == nullptr) {
+>     return;
+>   }
+*** formatting suggestions for classics.cpp
+10c10
+< Classics::Classics(const string& Actor, const int& Month, const int& Year) {
+---
+> Classics::Classics(const string &Actor, const int &Month, const int &Year) {
+17,19c17,19
+< Classics::Classics(const int& Stock, const string& Director,
+<                    const string& Title, const string& Actor, const int& Month,
+<                    const int& Year) {
+---
+> Classics::Classics(const int &Stock, const string &Director,
+>                    const string &Title, const string &Actor, const int &Month,
+>                    const int &Year) {
+33,35c33,34
+<   Os << "C, " << this->Stock << ", " << this->Director << ", "
+<   << this->Title << ", " << this->Actor << ", " << this->Month << " " <<
+<   this->Year << endl;
+---
+>   Os << "C, " << this->Stock << ", " << this->Director << ", " << this->Title
+>      << ", " << this->Actor << ", " << this->Month << " " << this->Year << endl;
+40,42c39
+< int Classics::getStock() const {
+<   return Stock;
+< }
+---
+> int Classics::getStock() const { return Stock; }
+44,46c41
+< string Classics::getDirector() const {
+<   return Director;
+< }
+---
+> string Classics::getDirector() const { return Director; }
+48,50c43
+< string Classics::getGenre() const {
+<   return Genre;
+< }
+---
+> string Classics::getGenre() const { return Genre; }
+52,54c45
+< string Classics::getTitle() const {
+<   return Title;
+< }
+---
+> string Classics::getTitle() const { return Title; }
+56,58c47
+< int Classics::getYear() const {
+<   return Year;
+< }
+---
+> int Classics::getYear() const { return Year; }
+62c51
+<   if(Stock > 0) {
+---
+>   if (Stock > 0) {
+68,70c57
+< void Classics::returnMovie() {
+<   Stock++;
+< }
+---
+> void Classics::returnMovie() { Stock++; }
+74,75c61,62
+< bool Classics::isEqual(const Movie *Mv) const{
+<   const auto* Cl = (const Classics*)Mv;
+---
+> bool Classics::isEqual(const Movie *Mv) const {
+>   const auto *Cl = (const Classics *)Mv;
+81,82c68,69
+< bool Classics::moreThan(const Movie *Mv) const{
+<   const auto* Cl = (const Classics*)Mv;
+---
+> bool Classics::moreThan(const Movie *Mv) const {
+>   const auto *Cl = (const Classics *)Mv;
+84c71
+<   ((Year == Cl->Year) && (Month == Cl->Month) && (Actor > Cl->Actor)));
+---
+>           ((Year == Cl->Year) && (Month == Cl->Month) && (Actor > Cl->Actor)));
+*** formatting suggestions for comedy.cpp
+10c10
+< Comedy::Comedy(const string& Title, const int& Year) {
+---
+> Comedy::Comedy(const string &Title, const int &Year) {
+16,17c16,17
+< Comedy::Comedy(const int& Stock, const string& Director, const string& Title,
+<         const int& Year) {
+---
+> Comedy::Comedy(const int &Stock, const string &Director, const string &Title,
+>                const int &Year) {
+29,30c29,30
+<   Os << "F, "  << this->Stock << ", " << this->Director << ", "
+<      << this->Title << ", " << this->Year << endl;
+---
+>   Os << "F, " << this->Stock << ", " << this->Director << ", " << this->Title
+>      << ", " << this->Year << endl;
+35,37c35
+< int Comedy::getStock() const {
+<   return Stock;
+< }
+---
+> int Comedy::getStock() const { return Stock; }
+39,41c37
+< string Comedy::getDirector() const {
+<   return Director;
+< }
+---
+> string Comedy::getDirector() const { return Director; }
+43,45c39
+< string Comedy::getGenre() const {
+<   return Genre;
+< }
+---
+> string Comedy::getGenre() const { return Genre; }
+47,49c41
+< string Comedy::getTitle() const {
+<   return Title;
+< }
+---
+> string Comedy::getTitle() const { return Title; }
+51,53c43
+< int Comedy::getYear() const {
+<   return Year;
+< }
+---
+> int Comedy::getYear() const { return Year; }
+57c47
+<   if(Stock > 0) {
+---
+>   if (Stock > 0) {
+63,65c53
+< void Comedy::returnMovie() {
+<   Stock++;
+< }
+---
+> void Comedy::returnMovie() { Stock++; }
+69,70c57,58
+< bool Comedy::isEqual(const Movie *Mv) const{
+<   const auto* Cm = (const Comedy*)Mv;
+---
+> bool Comedy::isEqual(const Movie *Mv) const {
+>   const auto *Cm = (const Comedy *)Mv;
+76,77c64,65
+< bool Comedy::moreThan(const Movie *Mv) const{
+<   const auto* Cm = (const Comedy*)Mv;
+---
+> bool Comedy::moreThan(const Movie *Mv) const {
+>   const auto *Cm = (const Comedy *)Mv;
+*** formatting suggestions for customer.cpp
+5d4
+< #include <iostream>
+7c6
+< 
+---
+> #include <iostream>
+19,21c18
+< string Customer::getName() const {
+<   return CName;
+< }
+---
+> string Customer::getName() const { return CName; }
+23,25c20
+< int Customer::getID() const {
+<   return ID;
+< }
+---
+> int Customer::getID() const { return ID; }
+28c23
+<   while(!Commands.empty()){
+---
+>   while (!Commands.empty()) {
+33,35c28
+< void Customer::clearMovieList() {
+<   MovieList.clear();
+< }
+---
+> void Customer::clearMovieList() { MovieList.clear(); }
+39,40c32,33
+<   queue<Transaction*> Temp;
+<   while(!Commands.empty()) {
+---
+>   queue<Transaction *> Temp;
+>   while (!Commands.empty()) {
+51c44
+<   if(It != MovieList.end()){
+---
+>   if (It != MovieList.end()) {
+58c51
+<   if(It != MovieList.end()){
+---
+>   if (It != MovieList.end()) {
+64,66c57
+< void Customer::addMovie(Movie *mvPtr) {
+<   MovieList.push_back(mvPtr);
+< }
+---
+> void Customer::addMovie(Movie *mvPtr) { MovieList.push_back(mvPtr); }
+68,70c59
+< void Customer::addTransaction(Transaction *Trans) {
+<   Commands.push(Trans);
+< }
+---
+> void Customer::addTransaction(Transaction *Trans) { Commands.push(Trans); }
+72c61
+< ostream& operator<<(ostream &Os, const Customer &Cust) {
+---
+> ostream &operator<<(ostream &Os, const Customer &Cust) {
+*** formatting suggestions for drama.cpp
+10,11c10
+< 
+< Drama::Drama(const string& Director, const string& Title) {
+---
+> Drama::Drama(const string &Director, const string &Title) {
+16,17c15,16
+< Drama::Drama(const int& Stock, const string& Director, const string& Title,
+<         const int& Year) {
+---
+> Drama::Drama(const int &Stock, const string &Director, const string &Title,
+>              const int &Year) {
+26,27c25,26
+<   Os << "D, "  << this->Stock << ", " << this->Director << ", "
+<        << this->Title << ", " << this->Year << endl;
+---
+>   Os << "D, " << this->Stock << ", " << this->Director << ", " << this->Title
+>      << ", " << this->Year << endl;
+31,33c30
+< int Drama::getStock() const {
+<   return Stock;
+< }
+---
+> int Drama::getStock() const { return Stock; }
+35,37c32
+< string Drama::getDirector() const {
+<   return Director;
+< }
+---
+> string Drama::getDirector() const { return Director; }
+39,41c34
+< string Drama::getGenre() const {
+<   return Genre;
+< }
+---
+> string Drama::getGenre() const { return Genre; }
+43,45c36
+< string Drama::getTitle() const {
+<   return Title;
+< }
+---
+> string Drama::getTitle() const { return Title; }
+47,49c38
+< int Drama::getYear() const {
+<   return Year;
+< }
+---
+> int Drama::getYear() const { return Year; }
+52c41
+<   if(Stock > 0) {
+---
+>   if (Stock > 0) {
+57,59c46
+< void Drama::returnMovie() {
+<   Stock++;
+< }
+---
+> void Drama::returnMovie() { Stock++; }
+61,64c48,51
+< bool Drama::moreThan(const Movie *Mv) const{
+<   const auto* Dm = (const Drama*)Mv;
+<   return ((Director > Dm->Director) || ((Director == Dm->Director)
+<                                               && (Title > Dm->Title)));
+---
+> bool Drama::moreThan(const Movie *Mv) const {
+>   const auto *Dm = (const Drama *)Mv;
+>   return ((Director > Dm->Director) ||
+>           ((Director == Dm->Director) && (Title > Dm->Title)));
+67,68c54,55
+< bool Drama::isEqual(const Movie *Mv) const{
+<   const auto* Dm = (const Drama*)Mv;
+---
+> bool Drama::isEqual(const Movie *Mv) const {
+>   const auto *Dm = (const Drama *)Mv;
+*** formatting suggestions for hashtable.cpp
+9c9
+<   for(int I = 0; I < TABLE_SIZE; I++){
+---
+>   for (int I = 0; I < TABLE_SIZE; I++) {
+14,16c14
+< HashTable::~HashTable() {
+<   clear();
+< }
+---
+> HashTable::~HashTable() { clear(); }
+27,29c25
+< int HashTable::hashFunction(int Key) {
+<   return Key % TABLE_SIZE;
+< }
+---
+> int HashTable::hashFunction(int Key) { return Key % TABLE_SIZE; }
+31c27
+< Customer* HashTable::search(int Key) {
+---
+> Customer *HashTable::search(int Key) {
+38,39c34
+<   }
+<   else {
+---
+>   } else {
+45c40
+<   if(Key > 9999 || Key < 0){
+---
+>   if (Key > 9999 || Key < 0) {
+66c61
+<     cout<<"No Element found at key "<<Key<<endl;
+---
+>     cout << "No Element found at key " << Key << endl;
+71c66
+<   cout<<"Element Deleted"<<endl;
+---
+>   cout << "Element Deleted" << endl;
+*** formatting suggestions for history.cpp
+6,8c6
+< History::History(Customer *Cust) {
+<   this->Cust = Cust;
+< }
+---
+> History::History(Customer *Cust) { this->Cust = Cust; }
+10,12c8
+< void History::output() {
+<   cout << "History: " << Cust->getName();
+< }
+---
+> void History::output() { cout << "History: " << Cust->getName(); }
+*** formatting suggestions for inventory.cpp
+6,8c6
+< void Inventory::output() {
+<   cout << "Inventory: " << endl;
+< }
+---
+> void Inventory::output() { cout << "Inventory: " << endl; }
+10,12c8
+< void Inventory::transact() {
+<   Store::printMovies();
+< }
+\ No newline at end of file
+---
+> void Inventory::transact() { Store::printMovies(); }
+\ No newline at end of file
+*** formatting suggestions for main.cpp
+5d4
+< 
+*** formatting suggestions for movie.cpp
+4a5
+> #include "classics.h"
+7d7
+< #include "classics.h"
+9c9
+< #include<sstream>
+---
+> #include <sstream>
+12,13c12,13
+< Movie* Movie::create(string Line) {
+<   Movie* Mv = nullptr;
+---
+> Movie *Movie::create(string Line) {
+>   Movie *Mv = nullptr;
+15,79c15,79
+<   switch(movieType){
+<     case 'C': {
+<       // C, 10, George Cukor, Holiday, Cary Grant 9 1938
+<       // print out the movie type, stock, director, title, major
+<       // actor, release month, and release year
+<       stringstream ss(Line);
+<       int Stock = 0;
+<       string Space;
+<       getline(ss, Space, ' ');
+<       ss >> Stock;
+<       getline(ss, Space, ' ');
+<       string Director;
+<       getline(ss, Director, ',');
+<       ss.get();
+<       string Title;
+<       getline(ss, Title, ',');
+<       getline(ss, Space, ' ');
+<       string actorF, actorL, actorFull;
+<       getline(ss, actorF, ' ');
+<       getline(ss, actorL, ' ');
+<       actorFull = actorF + " " + actorL;
+<       int Month, Year;
+<       ss >> Month;
+<       ss >> Year;
+<       Mv = new Classics(Stock, Director, Title, actorFull, Month, Year);
+<       break;
+<     }
+<     case 'D' : {
+<       stringstream ss(Line);
+<       int Stock = 0;
+<       string Space;
+<       getline(ss, Space, ' ');
+<       ss >> Stock;
+<       getline(ss, Space, ' ');
+<       string Director;
+<       getline(ss, Director, ',');
+<       ss.get();
+<       string Title;
+<       getline(ss, Title, ',');
+<       getline(ss, Space, ' ');
+<       int Year;
+<       ss >> Year;
+<       Mv = new Drama(Stock, Director, Title, Year);
+<       break;
+<     }
+<     case 'F' : {
+<       stringstream ss(Line);
+<       int Stock = 0;
+<       string Space;
+<       getline(ss, Space, ' ');
+<       ss >> Stock;
+<       getline(ss, Space, ' ');
+<       string Director;
+<       getline(ss, Director, ',');
+<       ss.get();
+<       string Title;
+<       getline(ss, Title, ',');
+<       getline(ss, Space, ' ');
+<       int Year;
+<       ss >> Year;
+<       Mv = new Comedy(Stock, Director, Title, Year);
+<       break;
+<     }
+<     default:
+<       return Mv;
+---
+>   switch (movieType) {
+>   case 'C': {
+>     // C, 10, George Cukor, Holiday, Cary Grant 9 1938
+>     // print out the movie type, stock, director, title, major
+>     // actor, release month, and release year
+>     stringstream ss(Line);
+>     int Stock = 0;
+>     string Space;
+>     getline(ss, Space, ' ');
+>     ss >> Stock;
+>     getline(ss, Space, ' ');
+>     string Director;
+>     getline(ss, Director, ',');
+>     ss.get();
+>     string Title;
+>     getline(ss, Title, ',');
+>     getline(ss, Space, ' ');
+>     string actorF, actorL, actorFull;
+>     getline(ss, actorF, ' ');
+>     getline(ss, actorL, ' ');
+>     actorFull = actorF + " " + actorL;
+>     int Month, Year;
+>     ss >> Month;
+>     ss >> Year;
+>     Mv = new Classics(Stock, Director, Title, actorFull, Month, Year);
+>     break;
+>   }
+>   case 'D': {
+>     stringstream ss(Line);
+>     int Stock = 0;
+>     string Space;
+>     getline(ss, Space, ' ');
+>     ss >> Stock;
+>     getline(ss, Space, ' ');
+>     string Director;
+>     getline(ss, Director, ',');
+>     ss.get();
+>     string Title;
+>     getline(ss, Title, ',');
+>     getline(ss, Space, ' ');
+>     int Year;
+>     ss >> Year;
+>     Mv = new Drama(Stock, Director, Title, Year);
+>     break;
+>   }
+>   case 'F': {
+>     stringstream ss(Line);
+>     int Stock = 0;
+>     string Space;
+>     getline(ss, Space, ' ');
+>     ss >> Stock;
+>     getline(ss, Space, ' ');
+>     string Director;
+>     getline(ss, Director, ',');
+>     ss.get();
+>     string Title;
+>     getline(ss, Title, ',');
+>     getline(ss, Space, ' ');
+>     int Year;
+>     ss >> Year;
+>     Mv = new Comedy(Stock, Director, Title, Year);
+>     break;
+>   }
+>   default:
+>     return Mv;
+*** formatting suggestions for return.cpp
+15,16c15,16
+<   cout << "-RETURNED: " << MPtr->getGenre() << ", " <<  MPtr->getTitle()
+<   << ", " << MPtr->getDirector() << " " << MPtr->getYear() << endl;
+---
+>   cout << "-RETURNED: " << MPtr->getGenre() << ", " << MPtr->getTitle() << ", "
+>        << MPtr->getDirector() << " " << MPtr->getYear() << endl;
+21c21
+<   if(CPtr->isRented(MPtr)){
+---
+>   if (CPtr->isRented(MPtr)) {
+*** formatting suggestions for store.cpp
+8d7
+< #include <sstream>
+9a9
+> #include <sstream>
+17,18c17,18
+< Store::~Store(){
+<   while(!TPtr.empty()){
+---
+> Store::~Store() {
+>   while (!TPtr.empty()) {
+27,30c27,30
+<   if(myFile.is_open()){
+<     while(getline(myFile, Read)){
+<       Movie* Mv = Movie::create(Read);
+<       if(Mv != nullptr) {
+---
+>   if (myFile.is_open()) {
+>     while (getline(myFile, Read)) {
+>       Movie *Mv = Movie::create(Read);
+>       if (Mv != nullptr) {
+32,43c32,40
+<           if(Type =='D'){
+<             Drama.insert(Mv);
+<           }
+<           else if(Type == 'C') {
+<             Classics.insert(Mv);
+<           }
+<           else if(Type == 'F'){
+<             Comedy.insert(Mv);
+<           }
+<           else {
+<             cout << "ERR:: INVALID MOVIE TYPE" << endl;
+<           }
+---
+>         if (Type == 'D') {
+>           Drama.insert(Mv);
+>         } else if (Type == 'C') {
+>           Classics.insert(Mv);
+>         } else if (Type == 'F') {
+>           Comedy.insert(Mv);
+>         } else {
+>           cout << "ERR:: INVALID MOVIE TYPE" << endl;
+>         }
+47,48c44
+<   }
+<   else{
+---
+>   } else {
+57,61c53,57
+< //  vector<string> Errors;
+<   if(myFile.is_open()){
+<     while(getline(myFile, Read)){
+<       Transaction* Trans = Transaction::create(Read);
+<       if(Trans != nullptr){
+---
+>   //  vector<string> Errors;
+>   if (myFile.is_open()) {
+>     while (getline(myFile, Read)) {
+>       Transaction *Trans = Transaction::create(Read);
+>       if (Trans != nullptr) {
+66,67c62
+<   }
+<   else{
+---
+>   } else {
+79,80c74,75
+<   if(myFile.is_open()){
+<     while(getline(myFile, Read)){
+---
+>   if (myFile.is_open()) {
+>     while (getline(myFile, Read)) {
+85,86c80,81
+<       if(Customers.search(ID) == nullptr){
+<         auto* Cust = new Customer(ID, Name);
+---
+>       if (Customers.search(ID) == nullptr) {
+>         auto *Cust = new Customer(ID, Name);
+101c96,97
+<   cout << "\n" << "==== Comedy ====" << endl;
+---
+>   cout << "\n"
+>        << "==== Comedy ====" << endl;
+110c106,107
+<   cout << "Movie Type ~ Stock ~ Director ~ Title ~ Actor ~ Month ~ Year" << endl;
+---
+>   cout << "Movie Type ~ Stock ~ Director ~ Title ~ Actor ~ Month ~ Year"
+>        << endl;
+115,127c112,121
+< Movie* Store::retrieve(Movie *Mv, const string& Action) {
+<     if(Action == "D") {
+<       return Drama.retrieve(Mv);
+<     }
+<     else if(Action == "F") {
+<       return Comedy.retrieve(Mv);
+<     }
+<     else if (Action == "C") {
+<       return Classics.retrieve(Mv);
+<     }
+<     else{
+<       return nullptr;
+<     }
+---
+> Movie *Store::retrieve(Movie *Mv, const string &Action) {
+>   if (Action == "D") {
+>     return Drama.retrieve(Mv);
+>   } else if (Action == "F") {
+>     return Comedy.retrieve(Mv);
+>   } else if (Action == "C") {
+>     return Classics.retrieve(Mv);
+>   } else {
+>     return nullptr;
+>   }
+129,132d122
+< 
+< 
+< 
+< 
+*** formatting suggestions for store_test.cpp
+7a8,10
+> #include "store.h"
+> #include <cassert>
+> #include <fstream>
+11,13d13
+< #include <fstream>
+< #include <cassert>
+< #include "store.h"
+38c38
+< //  cout << "Start testStore2" << endl;
+---
+>   //  cout << "Start testStore2" << endl;
+43c43
+< //  cout << "End testStore2" << endl;
+---
+>   //  cout << "End testStore2" << endl;
+54c54
+< //  testStore1();
+---
+>   //  testStore1();
+56c56
+< //  testStoreFinal();
+---
+>   //  testStoreFinal();
+*** formatting suggestions for transaction.cpp
+6c6,7
+< #include "return.h"
+---
+> #include "classics.h"
+> #include "customer.h"
+9c10
+< #include "classics.h"
+---
+> #include "return.h"
+11,12d11
+< #include "customer.h"
+< #include <sstream>
+13a13
+> #include <sstream>
+15c15
+< Transaction* Transaction::create(string& Line) {
+---
+> Transaction *Transaction::create(string &Line) {
+21,23c21,23
+<   Movie* Mv = nullptr;
+<   Movie* Curr = nullptr;
+<   Transaction* Trans = nullptr;
+---
+>   Movie *Mv = nullptr;
+>   Movie *Curr = nullptr;
+>   Transaction *Trans = nullptr;
+27c27
+<   if(ActionType == 'I'){
+---
+>   if (ActionType == 'I') {
+31,32c31,32
+<   Customer* Cust = Store::Customers.search(ID);
+<   if(Cust == nullptr){
+---
+>   Customer *Cust = Store::Customers.search(ID);
+>   if (Cust == nullptr) {
+36c36
+<   if(ActionType == 'H'){
+---
+>   if (ActionType == 'H') {
+39c39
+<   if(ActionType == 'B' || ActionType == 'R'){
+---
+>   if (ActionType == 'B' || ActionType == 'R') {
+42c42
+<     if(Store::mediaType.count(MediaC) == 1){
+---
+>     if (Store::mediaType.count(MediaC) == 1) {
+45c45
+<       if(MovieC == "D"){
+---
+>       if (MovieC == "D") {
+53c53
+<         if(Mv != nullptr) {
+---
+>         if (Mv != nullptr) {
+55,56c55
+<         }
+<         else{
+---
+>         } else {
+58c57
+<           << Director << " DOES NOT EXIST. " << endl;
+---
+>                << Director << " DOES NOT EXIST. " << endl;
+61,62c60
+<       }
+<       else if(MovieC == "F"){
+---
+>       } else if (MovieC == "F") {
+71c69
+<         if(Mv != nullptr) {
+---
+>         if (Mv != nullptr) {
+73,74c71
+<         }
+<         else{
+---
+>         } else {
+76,77c73,74
+<           cout << "ERR:: THE MOVIE " << MovieC << ": " << Title << " "
+<                << Year << " DOES NOT EXIST. " << endl;
+---
+>           cout << "ERR:: THE MOVIE " << MovieC << ": " << Title << " " << Year
+>                << " DOES NOT EXIST. " << endl;
+80,81c77
+<       }
+<       else if(MovieC == "C"){
+---
+>       } else if (MovieC == "C") {
+95c91
+<         if(Mv != nullptr) {
+---
+>         if (Mv != nullptr) {
+97,100c93,95
+<         }
+<         else{
+<           cout << "ERR:: THE MOVIE " << MovieC << ": " << Actor << " "
+<                << Month << " " << Year << " DOES NOT EXIST. " << endl;
+---
+>         } else {
+>           cout << "ERR:: THE MOVIE " << MovieC << ": " << Actor << " " << Month
+>                << " " << Year << " DOES NOT EXIST. " << endl;
+103,104c98
+<       }
+<       else{
+---
+>       } else {
+107,108c101
+<     }
+<     else{
+---
+>     } else {
+111,112c104
+<   }
+<   else{
+---
+>   } else {
+118,142c110,134
+< Transaction* Transaction::make(char commandType, Customer *Cust, Movie *Mv) {
+<   Transaction* Trans = nullptr;
+<   switch(commandType){
+<     case 'B' : {
+<       Trans = new Borrow(Cust, Mv);
+<       Trans->transact();
+<       break;
+<     }
+<     case 'R' : {
+<       Trans = new Return(Cust, Mv);
+<       Trans->transact();
+<       break;
+<     }
+<     case 'I' : {
+<       Trans = new Inventory();
+<       Trans->transact();
+<       break;
+<     }
+<     case 'H' : {
+<       Trans = new History(Cust);
+<       Trans->transact();
+<       break;
+<     }
+<     default:
+<       cout << "ERR:: Invalid Action Type. " << endl;
+---
+> Transaction *Transaction::make(char commandType, Customer *Cust, Movie *Mv) {
+>   Transaction *Trans = nullptr;
+>   switch (commandType) {
+>   case 'B': {
+>     Trans = new Borrow(Cust, Mv);
+>     Trans->transact();
+>     break;
+>   }
+>   case 'R': {
+>     Trans = new Return(Cust, Mv);
+>     Trans->transact();
+>     break;
+>   }
+>   case 'I': {
+>     Trans = new Inventory();
+>     Trans->transact();
+>     break;
+>   }
+>   case 'H': {
+>     Trans = new History(Cust);
+>     Trans->transact();
+>     break;
+>   }
+>   default:
+>     cout << "ERR:: Invalid Action Type. " << endl;
+146,147d137
+< 
+< 
+*** running valgrind to detect memory leaks
+==28987== Memcheck, a memory error detector
+==28987== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==28987== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==28987== Command: ./myprogram
+==28987== 
+
+Inventory: 
+
+==== Comedy ====
+Movie Type ~ Stock ~ Director ~ Title ~ Year
+F, 10, Woody Allen, Annie Hall, 1977
+F, 10, Joel Coen, Fargo, 1996
+F, 10, John Landis, National Lampoon's Animal House, 1978
+F, 10, Different Years, Pirates of the Caribbean, 2000
+F, 10, Gore Verbinski, Pirates of the Caribbean, 2003
+F, 10, Nora Ephron, Sleepless in Seattle, 1993
+F, 10, Rob Reiner, When Harry Met Sally, 1989
+F, 10, Nora Ephron, You've Got Mail, 1998
+
+==== Drama ====
+Movie Type ~ Stock ~ Director ~ Title ~ Year
+D, 10, Barry Levinson, Good Morning Vietnam, 1988
+D, 10, Barry Levinson, Same Director Good Morning Vietnam, 1988
+D, 10, Clint Eastwood, Unforgiven, 1992
+D, 10, Gus Van Sant, Good Will Hunting, 2000
+D, 10, Jonathan Demme, Silence of the Lambs, 1991
+D, 10, Nancy Savoca, Dogfight, 1991
+D, 10, Phillippe De Broca, King of Hearts, 1967
+D, 10, Steven Spielberg, Schindler's List, 1993
+
+==== Classics ====
+Movie Type ~ Stock ~ Director ~ Title ~ Actor ~ Month ~ Year
+C, 10, George Cukor, Holiday, Cary Grant, 9 1938
+C, 10, George Cukor, Holiday, Katherine Hepburn, 9 1938
+C, 10, Victor Fleming, Gone With the Wind, Clark Gable, 2 1939
+C, 10, Victor Fleming, Gone With the Wind, Vivien Leigh, 2 1939
+C, 10, Victor Fleming, The Wizard of Oz, Judy Garland, 7 1939
+C, 10, George Cukor, The Philadelphia Story, Cary Grant, 5 1940
+C, 10, George Cukor, The Philadelphia Story, Katherine Hepburn, 5 1940
+C, 10, John Huston, The Maltese Falcon, Humphrey Bogart, 10 1941
+C, 10, Michael Curtiz, Casablanca, Humphrey Bogart, 8 1942
+C, 10, Michael Curtiz, Casablanca, Ingrid Bergman, 8 1942
+C, 10, Frank Capra, It's a Wonderful Life, Donna Reed, 11 1946
+C, 10, Frank Capra, It's a Wonderful Life, James Steward, 11 1946
+C, 10, Stanley Kubrick, A Clockwork Orange, Malcolm McDowell, 2 1971
+C, 10, Hal Ashby, Harold and Maude, Ruth Gordon, 3 1971
+
+
+History: Mouse Minnie
+1000 Mouse Minnie
+
+
+History: Frog Freddie
+5000 Frog Freddie
+
+
+History: Wacky Wally
+8000 Wacky Wally
+
+ERR:: INVALID MOVIE CODE - Z
+ERR:: CUSTOMER ID 0 IS NOT VALID.
+ERR:: INVALID COMMAND - Z
+ERR:: CUSTOMER ID 1234 IS NOT VALID.
+ERR:: THE MOVIE F: Bogus Title 2001 DOES NOT EXIST. 
+ERR:: INVALID MEDIA TYPE - Z
+ERR:: MOVIE OUT OF STOCK -- Classic, Harold and Maude, Hal Ashby 1971
+ERR:: MOVIE OUT OF STOCK -- Classic, Harold and Maude, Hal Ashby 1971
+ERR:: MOVIE OUT OF STOCK -- Classic, Harold and Maude, Hal Ashby 1971
+ERR:: THE MOVIE D: Bogus Title Steven Spielberg DOES NOT EXIST. 
+
+Inventory: 
+
+==== Comedy ====
+Movie Type ~ Stock ~ Director ~ Title ~ Year
+F, 9, Woody Allen, Annie Hall, 1977
+F, 9, Joel Coen, Fargo, 1996
+F, 9, John Landis, National Lampoon's Animal House, 1978
+F, 10, Different Years, Pirates of the Caribbean, 2000
+F, 10, Gore Verbinski, Pirates of the Caribbean, 2003
+F, 9, Nora Ephron, Sleepless in Seattle, 1993
+F, 9, Rob Reiner, When Harry Met Sally, 1989
+F, 9, Nora Ephron, You've Got Mail, 1998
+
+==== Drama ====
+Movie Type ~ Stock ~ Director ~ Title ~ Year
+D, 9, Barry Levinson, Good Morning Vietnam, 1988
+D, 10, Barry Levinson, Same Director Good Morning Vietnam, 1988
+D, 9, Clint Eastwood, Unforgiven, 1992
+D, 9, Gus Van Sant, Good Will Hunting, 2000
+D, 9, Jonathan Demme, Silence of the Lambs, 1991
+D, 8, Nancy Savoca, Dogfight, 1991
+D, 9, Phillippe De Broca, King of Hearts, 1967
+D, 9, Steven Spielberg, Schindler's List, 1993
+
+==== Classics ====
+Movie Type ~ Stock ~ Director ~ Title ~ Actor ~ Month ~ Year
+C, 9, George Cukor, Holiday, Cary Grant, 9 1938
+C, 10, George Cukor, Holiday, Katherine Hepburn, 9 1938
+C, 10, Victor Fleming, Gone With the Wind, Clark Gable, 2 1939
+C, 10, Victor Fleming, Gone With the Wind, Vivien Leigh, 2 1939
+C, 10, Victor Fleming, The Wizard of Oz, Judy Garland, 7 1939
+C, 9, George Cukor, The Philadelphia Story, Cary Grant, 5 1940
+C, 9, George Cukor, The Philadelphia Story, Katherine Hepburn, 5 1940
+C, 9, John Huston, The Maltese Falcon, Humphrey Bogart, 10 1941
+C, 10, Michael Curtiz, Casablanca, Humphrey Bogart, 8 1942
+C, 10, Michael Curtiz, Casablanca, Ingrid Bergman, 8 1942
+C, 10, Frank Capra, It's a Wonderful Life, Donna Reed, 11 1946
+C, 10, Frank Capra, It's a Wonderful Life, James Steward, 11 1946
+C, 9, Stanley Kubrick, A Clockwork Orange, Malcolm McDowell, 2 1971
+C, 0, Hal Ashby, Harold and Maude, Ruth Gordon, 3 1971
+
+
+History: Mouse Minnie
+1000 Mouse Minnie
+-BORROWED: Drama, Good Morning Vietnam, Barry Levinson 1988
+-BORROWED: Classic, The Philadelphia Story, George Cukor 1940
+-BORROWED: Drama, Good Will Hunting, Gus Van Sant 2000
+-BORROWED: Classic, The Philadelphia Story, George Cukor 1940
+-BORROWED: Classic, Harold and Maude, Hal Ashby 1971
+
+
+History: Mouse Mickey
+1111 Mouse Mickey
+-BORROWED: Classic, A Clockwork Orange, Stanley Kubrick 1971
+-BORROWED: Classic, Harold and Maude, Hal Ashby 1971
+-BORROWED: Classic, The Maltese Falcon, John Huston 1941
+-BORROWED: Classic, Holiday, George Cukor 1938
+
+
+History: Frog Freddie
+5000 Frog Freddie
+-BORROWED: Classic, Harold and Maude, Hal Ashby 1971
+-RETURNED: Classic, Harold and Maude, Hal Ashby 1971
+-BORROWED: Classic, Harold and Maude, Hal Ashby 1971
+-RETURNED: Classic, Harold and Maude, Hal Ashby 1971
+-BORROWED: Classic, Harold and Maude, Hal Ashby 1971
+-RETURNED: Classic, Harold and Maude, Hal Ashby 1971
+-BORROWED: Classic, Harold and Maude, Hal Ashby 1971
+
+
+History: Wacky Wally
+8000 Wacky Wally
+-BORROWED: Comedy, You've Got Mail, Nora Ephron 1998
+-RETURNED: Comedy, You've Got Mail, Nora Ephron 1998
+-BORROWED: Classic, Harold and Maude, Hal Ashby 1971
+-BORROWED: Classic, Harold and Maude, Hal Ashby 1971
+-BORROWED: Comedy, National Lampoon's Animal House, John Landis 1978
+
+
+History: Pig Porky
+8888 Pig Porky
+-BORROWED: Comedy, Annie Hall, Woody Allen 1977
+-BORROWED: Comedy, When Harry Met Sally, Rob Reiner 1989
+-BORROWED: Drama, Silence of the Lambs, Jonathan Demme 1991
+-BORROWED: Drama, Dogfight, Nancy Savoca 1991
+-BORROWED: Classic, Harold and Maude, Hal Ashby 1971
+
+Done.
+==28987== 
+==28987== HEAP SUMMARY:
+==28987==     in use at exit: 0 bytes in 0 blocks
+==28987==   total heap usage: 1,138 allocs, 1,138 frees, 137,586 bytes allocated
+==28987== 
+==28987== All heap blocks were freed -- no leaks are possible
+==28987== 
+==28987== For counts of detected and suppressed errors, rerun with: -v
+==28987== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+*** cleaning up, deleting myprogram
+Wed Mar 11 22:21:45 PDT 2020
