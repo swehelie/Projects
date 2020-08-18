@@ -1,0 +1,100 @@
+/*
+ * Created by PhpStorm.
+ * User: Duhyun K, Hailey S, Josh W, Sarah W
+ * Date: 06/04/2020
+ * Time: 12:30PM
+
+Format styles on tables and search/update bars with buttons
+Sources: https://www.w3schools.com/css/css_table.asp,
+https://www.w3schools.com/html/html_tables.asp,
+https://css-tricks.com/complete-guide-table-element/ (table format);
+https://www.w3schools.com/howto/howto_css_search_button.asp (search button with icon);
+*/
+
+/* Format configuration on all search/update bars */
+.searchBar {
+    display: inline-block;
+    font-size: 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Format configuration on list_naturalDisaster.php search bar when
+inputting in a search */
+.inputSearch {
+    padding: 4px 20px 4px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    width: 525px;
+    position: relative;
+    border: 1.5px solid rgb(64, 79, 36);
+}
+
+/* Format configuration on list_naturalDisaster.php search bar to have
+a styled button when searching */
+.searchBar button {
+    padding: 5px 20px 5px 10px;
+    border: 1.5px solid rgb(189, 208, 156);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    width: 32px;
+    position: relative;
+    border: 1.5px solid rgb(64, 79, 36);
+}
+
+/* Format configuration on update_naturalDisaster.php update bar when updating
+total deaths */
+.updateSearch {
+    padding: 4px 20px 4px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    width: 475px;
+    position: relative;
+    border: 1.5px solid rgb(64, 79, 36);
+}
+
+/* Format configuration on update_naturalDisaster.php update bar to have "Enter"
+when updating total deaths */
+#enterButton {
+    padding: 4px 10px 4px 10px;
+    border: 1.5px solid rgb(189, 208, 156);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    width: 82px;
+    position: relative;
+    border: 1.5px solid rgb(64, 79, 36);
+}
+
+
+.table1 {
+     margin-top: 1em;
+     width: 532px;
+ }
+
+ .table1, th, td {
+     border: 1px solid rgb(64, 79, 36);
+     border-collapse: collapse;
+ }
+
+ .table1 td {
+   padding: 4px 8px 4px 4px;
+ }
+
+ .table1 th {
+     padding: 4px 8px 4px 4px;
+     background-color: rgb(189, 208, 156);
+     text-align: left;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 14px;
+     height: 150%;
+ }
+
+  /* Format configuration on Disaster Name column on all tables */
+ #nameOfDisaster {
+     padding: 4px 50px 4px 4px;
+ }
+
+  /* Format configuration on Disaster Type column on all tables */
+ #disasterType {
+     padding: 4px 50px 4px 4px;
+ }

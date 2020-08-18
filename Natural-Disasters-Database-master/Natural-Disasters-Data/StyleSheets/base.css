@@ -1,0 +1,64 @@
+/*
+* Created by PhpStorm.
+* User: Duhyun K, Hailey S, Josh W, Sarah W
+* Date: 06/04/2020
+* Time: 12:30PM
+
+Customization on navigation bar, and title headers for pages
+Sources: https://www.w3schools.com/css/css_navbar_horizontal.asp (nav bar);
+*/
+
+/* Format configuration on index.php to have a styled title page */
+#titlePage {
+    font-size: 60px;
+    padding: 25px;
+    color: darkolivegreen;
+    text-align: center;
+    padding-top: 1em;
+}
+
+/* Formatting main image on index.php */
+#naturalDisasterImages {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding-top: 1 em;
+}
+
+.topnav ul {
+    list-style-type: none;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 0px;
+    overflow: hidden;
+    background-color: rgb(185, 156, 107);
+    border-bottom: 3px solid black;
+    font-size: 0px;
+}
+
+.topnav li {
+    display: inline;
+}
+
+.topnav li a {
+    text-align: center;
+    padding: 14px 24px 10px 24px;
+    margin: 0px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    height: 30px;
+    float: left;
+    padding-top: 14px;
+    padding-bottom: 10px;
+}
+
+.topnav li a:hover:not(.active) {
+    background-color: rgb(167, 121, 37);
+}
+
+.active {
+    background-color: rgb(133, 87, 35);
+}
