@@ -1,12 +1,8 @@
 # Movie Store
 
-## Replace all TODO with actual information
 
 Author(s): Sarah Wehelie
 
-GitHub URL: https://github.com/uwbclass/uwb2020wi343b-movies-sarahyw10/tree/74f40674d318501dc081a72bb6d03431c43e83fc
-
-Expected Mark: ~110
 
 ## Checklist
 
