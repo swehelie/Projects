@@ -1,0 +1,15 @@
+.marker-btn img {
+  width: 20px;
+  height: 40px;
+  color: red;
+}
+
+.marker-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.marker-btn:hover {
+  fill: red;
+}
